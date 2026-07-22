@@ -1,7 +1,7 @@
 {
   "name": "accounts-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,8 +13,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1088.0",
-    "@aws-sdk/lib-dynamodb": "^3.1088.0",
+    "@aws-sdk/client-dynamodb": "^3.1092.0",
+    "@aws-sdk/lib-dynamodb": "^3.1092.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhurl-lbg/ga-account-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhurl-lbg/ga-account-service/issues"
+  },
+  "homepage": "https://github.com/bhurl-lbg/ga-account-service#readme"
 }
